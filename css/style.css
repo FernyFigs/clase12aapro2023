@@ -1,0 +1,143 @@
+/*para index y botones*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #fff;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+li {
+  list-style-type: none;
+  border: 1px solid #333;
+  padding: 4px;
+  background: #9d9eb9;
+  border-radius: 4px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: -4px 4px #08615c;
+  transition: all 300ms;
+}
+
+img {
+  width: 400px;
+  box-shadow: 2px 2px 6px #000;
+
+  display: block;
+  margin: auto;
+}
+
+.parrafo {
+  background: #9e8c98;
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  border-radius: 16px;
+  box-shadow: 2px 2px 4px #000;
+}
+
+article {
+  text-align: center;
+}
+
+.claseheader {
+  height: 100%;
+  width: 100%;
+}
+
+.footerclase {
+  margin-top: auto;
+  background: #000;
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+/*para horario de atención*/
+
+.tablefont {
+  font: bold;
+  color: #9c0e0e;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tablehour {
+  color: rgb(12, 12, 151);
+  font: oblique;
+  font-size: 1.5rem;
+}
+
+/*para contacto*/
+
+.ejercicio {
+  text-align: right;
+  font: bold;
+  font-style: oblique;
+  font-weight: 100;
+  font-size: 1rem;
+  color: rgb(13, 63, 3);
+}
+
+.contactotitle {
+  font-size: 2rem;
+  font-weight: 300;
+  font: bolder;
+  color: rgb(70, 66, 90);
+  text-align: center;
+}
+
+.formulario {
+  border: #fff;
+  text-align: center;
+}
+
+/*CAROUSEL*/
+#carouselExample {
+  box-shadow: 2px 2px 20px #000;
+  width: 550px;
+}
